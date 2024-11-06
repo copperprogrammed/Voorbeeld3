@@ -1,0 +1,123 @@
+.background-image {
+    background-image: url('https://img.freepik.com/vrije-vector/kleurrijke-golvende-achtergrond_23-2148497772.jpg');
+    background-size: 100%;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#audio1 {
+    width: 90%;
+}
+
+#audio2 {
+    width: 90%;
+}
+
+#audio3 {
+    width: 90%;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: black;
+}
+
+audio::-webkit-media-controls-mute-button {
+    background-color: white;
+    border-radius: 50%;
+}
+
+audio::-webkit-media-controls-play-button {
+    background-color: white;
+    border-radius: 50%;
+}
+
+audio::-webkit-media-controls-current-time-display {
+    color: white;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+    color: white;
+}
+
+audio::-webkit-media-controls-timeline {
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+audio::-webkit-media-controls-volume-slider {
+    background-color: white;
+    border-radius: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#music1 {
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: black;
+    width: 1000px;
+    background-color: black;
+    border: 5px solid white;
+    font: 100px;
+    display: flex;
+}
+
+#music2 {
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: black;
+    width: 1000px;
+    background-color: black;
+    border: 5px solid white;
+    font: 100px;
+    display: flex;
+}
+
+#music3 {
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: black;
+    width: 1000px;
+    background-color: black;
+    border: 5px solid white;
+    font: 100px;
+    display: flex;
+}
+
+#MusicCover1 {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    border-right: 5px solid white;
+}
+
+#MusicCover2 {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    border-right: 5px solid white;
+}
+
+#MusicCover3 {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    border-right: 5px solid white;
+}
